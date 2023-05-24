@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/reccource_">
+        <file>image/saad_image.png</file>
+    </qresource>
+</RCC>
