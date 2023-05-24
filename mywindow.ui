@@ -17,16 +17,19 @@
    <widget class="QGroupBox" name="groupBox">
     <property name="geometry">
      <rect>
-      <x>80</x>
-      <y>50</y>
-      <width>321</width>
-      <height>191</height>
+      <x>10</x>
+      <y>0</y>
+      <width>491</width>
+      <height>271</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/background_image/image/Screenshot (117).png);</string>
     </property>
     <property name="title">
      <string>GroupBox</string>
     </property>
-    <widget class="QWidget" name="">
+    <widget class="QWidget" name="layoutWidget">
      <property name="geometry">
       <rect>
        <x>100</x>
@@ -39,16 +42,20 @@
       <item>
        <widget class="QLabel" name="label">
         <property name="text">
-         <string> Username:          </string>
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:600; color:#ffffff;&quot;&gt;Username: &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
         </property>
        </widget>
       </item>
       <item>
-       <widget class="QLineEdit" name="lineEdit_username"/>
+       <widget class="QLineEdit" name="lineEdit_username">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 255);</string>
+        </property>
+       </widget>
       </item>
      </layout>
     </widget>
-    <widget class="QWidget" name="">
+    <widget class="QWidget" name="layoutWidget">
      <property name="geometry">
       <rect>
        <x>100</x>
@@ -61,12 +68,15 @@
       <item>
        <widget class="QLabel" name="label_2">
         <property name="text">
-         <string>  Password:          </string>
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:600; color:#ffffff;&quot;&gt;Password: &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
         </property>
        </widget>
       </item>
       <item>
        <widget class="QLineEdit" name="lineEdit_password">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 255);</string>
+        </property>
         <property name="echoMode">
          <enum>QLineEdit::Password</enum>
         </property>
@@ -82,6 +92,12 @@
        <width>101</width>
        <height>31</height>
       </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font-size:11px;
+color: rgb(255, 255, 255);
+font-style:italic;
+</string>
      </property>
      <property name="text">
       <string>Login</string>
